@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MOVIE FINDER</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Movie Info Provider</a>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="jumbotron">
+			<h3 class="text-center"> Search any Movie </h3>
+			<form id="searchform">
+				<input type="text" class="form-control" id="searchtext" placeholder="Enter movie name">
+			</form>
+		</div>
+	</div>
+
+	<div class="container">
+		<div id="movie_list" class="rows">
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<script src="./js/main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
